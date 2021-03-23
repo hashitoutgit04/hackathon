@@ -11,21 +11,18 @@
     <classes>
       <class name="testcases.test">
         <methods>
-          <include name="clickvariant"/>
-          <include name="selectcarmodel"/>
           <include name="clickproceedbutton"/>
-          <include name="selectbrand"/>
+          <include name="ageselection"/>
           <include name="clicksort"/>
-          <include name="selectRTO"/>
-          <include name="clickcaricon"/>
+          <include name="clicknextbutton"/>
           <include name="menuitems"/>
+          <include name="clickdates"/>
+          <include name="clicktravel"/>
           <include name="closebrowser"/>
-          <include name="clickyear"/>
-          <include name="selectcity"/>
-          <include name="clickfuel"/>
-          <include name="proceedbutton"/>
+          <include name="clickcountry"/>
+          <include name="openhealthurl"/>
           <include name="setup"/>
-          <include name="fetcherror"/>
+          <include name="travelinputclick"/>
           <include name="getnamesandrate"/>
         </methods>
       </class> <!-- testcases.test -->
