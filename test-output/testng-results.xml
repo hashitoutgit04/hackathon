@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="24" passed="24" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-22T18:21:35 IST" name="Suite" finished-at="2021-03-22T18:22:18 IST" duration-ms="42350">
+    <groups>
+      <group name="smoke">
+        <method signature="test.clickcaricon()[pri:11, instance:testcases.test@33990a0c]" name="clickcaricon" class="testcases.test"/>
+        <method signature="test.clickcountry()[pri:2, instance:testcases.test@33990a0c]" name="clickcountry" class="testcases.test"/>
+        <method signature="test.clickdates()[pri:6, instance:testcases.test@33990a0c]" name="clickdates" class="testcases.test"/>
+        <method signature="test.clickfuel()[pri:17, instance:testcases.test@33990a0c]" name="clickfuel" class="testcases.test"/>
+        <method signature="test.clicknextbutton()[pri:5, instance:testcases.test@33990a0c]" name="clicknextbutton" class="testcases.test"/>
+        <method signature="test.clickproceedbutton()[pri:7, instance:testcases.test@33990a0c]" name="clickproceedbutton" class="testcases.test"/>
+        <method signature="test.clicksort()[pri:8, instance:testcases.test@33990a0c]" name="clicksort" class="testcases.test"/>
+        <method signature="test.clicktravel()[pri:1, instance:testcases.test@33990a0c]" name="clicktravel" class="testcases.test"/>
+        <method signature="test.clickvariant()[pri:18, instance:testcases.test@33990a0c]" name="clickvariant" class="testcases.test"/>
+        <method signature="test.clickyear()[pri:19, instance:testcases.test@33990a0c]" name="clickyear" class="testcases.test"/>
+        <method signature="test.fetcherror()[pri:21, instance:testcases.test@33990a0c]" name="fetcherror" class="testcases.test"/>
+        <method signature="test.getnamesandrate()[pri:9, instance:testcases.test@33990a0c]" name="getnamesandrate" class="testcases.test"/>
+        <method signature="test.menuitems()[pri:24, instance:testcases.test@33990a0c]" name="menuitems" class="testcases.test"/>
+        <method signature="test.mouseaction()[pri:23, instance:testcases.test@33990a0c]" name="mouseaction" class="testcases.test"/>
+        <method signature="test.openhealthurl()[pri:22, instance:testcases.test@33990a0c]" name="openhealthurl" class="testcases.test"/>
+        <method signature="test.openurl()[pri:10, instance:testcases.test@33990a0c]" name="openurl" class="testcases.test"/>
+        <method signature="test.proceedbutton()[pri:12, instance:testcases.test@33990a0c]" name="proceedbutton" class="testcases.test"/>
+        <method signature="test.selectRTO()[pri:14, instance:testcases.test@33990a0c]" name="selectRTO" class="testcases.test"/>
+        <method signature="test.selectcarmodel()[pri:16, instance:testcases.test@33990a0c]" name="selectcarmodel" class="testcases.test"/>
+        <method signature="test.selectcity()[pri:13, instance:testcases.test@33990a0c]" name="selectcity" class="testcases.test"/>
+        <method signature="test.travelinputclick()[pri:3, instance:testcases.test@33990a0c]" name="travelinputclick" class="testcases.test"/>
+      </group> <!-- smoke -->
+      <group name="Regression">
+        <method signature="test.ageselection()[pri:4, instance:testcases.test@33990a0c]" name="ageselection" class="testcases.test"/>
+        <method signature="test.fillform()[pri:20, instance:testcases.test@33990a0c]" name="fillform" class="testcases.test"/>
+        <method signature="test.selectbrand()[pri:15, instance:testcases.test@33990a0c]" name="selectbrand" class="testcases.test"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2021-03-22T18:21:35 IST" name="Test" finished-at="2021-03-22T18:22:18 IST" duration-ms="42350">
+      <class name="testcases.test">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:26 IST" name="setup" finished-at="2021-03-22T18:21:35 IST" duration-ms="9052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clicktravel()[pri:1, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:35 IST" name="clicktravel" finished-at="2021-03-22T18:21:36 IST" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicktravel -->
+        <test-method signature="clickcountry()[pri:2, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:36 IST" name="clickcountry" finished-at="2021-03-22T18:21:39 IST" duration-ms="3044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickcountry -->
+        <test-method signature="travelinputclick()[pri:3, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:39 IST" name="travelinputclick" finished-at="2021-03-22T18:21:39 IST" duration-ms="513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- travelinputclick -->
+        <test-method signature="ageselection()[pri:4, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:39 IST" name="ageselection" finished-at="2021-03-22T18:21:41 IST" duration-ms="1914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ageselection -->
+        <test-method signature="clicknextbutton()[pri:5, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:41 IST" name="clicknextbutton" finished-at="2021-03-22T18:21:42 IST" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicknextbutton -->
+        <test-method signature="clickdates()[pri:6, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:42 IST" name="clickdates" finished-at="2021-03-22T18:21:43 IST" duration-ms="914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickdates -->
+        <test-method signature="clickproceedbutton()[pri:7, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:43 IST" name="clickproceedbutton" finished-at="2021-03-22T18:21:45 IST" duration-ms="2258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickproceedbutton -->
+        <test-method signature="clicksort()[pri:8, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:45 IST" name="clicksort" finished-at="2021-03-22T18:21:48 IST" duration-ms="3333" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicksort -->
+        <test-method signature="getnamesandrate()[pri:9, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:48 IST" name="getnamesandrate" finished-at="2021-03-22T18:21:49 IST" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getnamesandrate -->
+        <test-method signature="openurl()[pri:10, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:49 IST" name="openurl" finished-at="2021-03-22T18:21:59 IST" duration-ms="9381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openurl -->
+        <test-method signature="clickcaricon()[pri:11, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:21:59 IST" name="clickcaricon" finished-at="2021-03-22T18:22:01 IST" duration-ms="2678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickcaricon -->
+        <test-method signature="proceedbutton()[pri:12, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:01 IST" name="proceedbutton" finished-at="2021-03-22T18:22:03 IST" duration-ms="1769" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedbutton -->
+        <test-method signature="selectcity()[pri:13, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:03 IST" name="selectcity" finished-at="2021-03-22T18:22:03 IST" duration-ms="298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectcity -->
+        <test-method signature="selectRTO()[pri:14, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:03 IST" name="selectRTO" finished-at="2021-03-22T18:22:04 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectRTO -->
+        <test-method signature="selectbrand()[pri:15, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:04 IST" name="selectbrand" finished-at="2021-03-22T18:22:04 IST" duration-ms="496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectbrand -->
+        <test-method signature="selectcarmodel()[pri:16, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:04 IST" name="selectcarmodel" finished-at="2021-03-22T18:22:05 IST" duration-ms="473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectcarmodel -->
+        <test-method signature="clickfuel()[pri:17, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:05 IST" name="clickfuel" finished-at="2021-03-22T18:22:05 IST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickfuel -->
+        <test-method signature="clickvariant()[pri:18, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:05 IST" name="clickvariant" finished-at="2021-03-22T18:22:06 IST" duration-ms="431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickvariant -->
+        <test-method signature="clickyear()[pri:19, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:06 IST" name="clickyear" finished-at="2021-03-22T18:22:06 IST" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickyear -->
+        <test-method signature="fillform()[pri:20, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:06 IST" name="fillform" finished-at="2021-03-22T18:22:08 IST" duration-ms="1466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillform -->
+        <test-method signature="fetcherror()[pri:21, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:08 IST" name="fetcherror" finished-at="2021-03-22T18:22:08 IST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fetcherror -->
+        <test-method signature="openhealthurl()[pri:22, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:08 IST" name="openhealthurl" finished-at="2021-03-22T18:22:16 IST" duration-ms="7888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openhealthurl -->
+        <test-method signature="mouseaction()[pri:23, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:16 IST" name="mouseaction" finished-at="2021-03-22T18:22:17 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseaction -->
+        <test-method signature="menuitems()[pri:24, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:17 IST" name="menuitems" finished-at="2021-03-22T18:22:18 IST" duration-ms="859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuitems -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:testcases.test@33990a0c]" started-at="2021-03-22T18:22:18 IST" name="closebrowser" finished-at="2021-03-22T18:22:19 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- testcases.test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
